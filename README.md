@@ -1,56 +1,215 @@
-# OLA-Ride-Booking-Analysis
 
-## 📌 Project Overview  
+# 🚖 Ola Ride Booking Analysis using SQL & Power BI
+
+An end-to-end Data Analytics project that analyzes Ola ride booking data using SQL, Excel, and Power BI to uncover customer behavior, booking trends, cancellation patterns, revenue insights, and operational performance. This project demonstrates data cleaning, SQL analysis, dashboard development, and business intelligence using a real-world ride booking dataset.
+
+---
+
+# 📌 Project Overview
+
+Ride-hailing companies generate millions of booking records every day. Analyzing this data helps businesses improve customer experience, optimize operations, reduce cancellations, and increase revenue.
+
+This project focuses on solving real-world business problems by analyzing Ola ride booking data and presenting insights through interactive Power BI dashboards.
 ![Banner](dashboards/01_Overall_dashboard.png)
+---
 
-This project presents an end-to-end data analysis of Ola ride bookings with a
-focus on understanding customer and driver-led cancellations. The objective
-is to identify key cancellation drivers, evaluate booking and revenue trends,
-and provide data-backed insights to improve operational efficiency and
-customer experience.
+# 🎯 Project Objectives
 
-## 🎯 Business Objectives
-- Maintain customer cancellation rate below **7%**
-- Keep driver cancellation rate below **18%**
-- Limit incomplete rides to under **6%**
-- Increase weekend order volume and total booking value
-- Evaluate vehicle-wise performance, revenue contribution, and ratings.
+- Clean and preprocess ride booking data.
+- Analyze booking and cancellation trends.
+- Evaluate customer and driver behavior.
+- Identify revenue and payment patterns.
+- Build interactive Power BI dashboards.
+- Generate actionable business insights.
 
-- ## 🛠 Tools & Technologies
-- **Excel** – Data cleaning, preprocessing, and validation  
-- **SQL** – Exploratory analysis and business-focused queries  
-- **Power BI** – Interactive dashboards and KPI visualization
+---
 
-- ## 📊 Power BI Dashboards
+# 🛠️ Technologies Used
 
-### 1️⃣ Overall Performance Dashboard  
-Tracks total bookings, booking value, ride trends, and booking success rate.  
-👉 ![Overall](dashboards/01_overall_dashboard.png)
+- SQL (MySQL)
+- Power BI
+- Microsoft Excel
+- Data Analytics
+- Business Intelligence
+- Git & GitHub
 
-### 2️⃣ Vehicle Type Analysis Dashboard  
-Compares booking value, success rate, and distance traveled across vehicle types.  
-👉 ![Vehicle](dashboards/02_vehicle_type_dashboard.png)
+---
 
-### 3️⃣ Revenue Analysis Dashboard  
-Analyzes revenue trends, payment methods, and top customers.  
-👉 ![Revenue](dashboards/03_revenue_dashboard.png)
+# 📂 Dataset Information
 
-### 4️⃣ Cancellation Analysis Dashboard  
-Identifies cancellation reasons from both customer and driver perspectives.  
-👉 ![Cancellation](dashboards/04_cancellation_dashboard.png)
+The dataset contains ride booking information including:
 
-### 5️⃣ Ratings Analysis Dashboard  
-Evaluates driver and customer ratings across different vehicle categories.  
-👉 ![Ratings](dashboards/05_ratings_dashboard.png)
+- Booking ID
+- Customer ID
+- Driver ID
+- Vehicle Type
+- Booking Status
+- Pickup Location
+- Drop Location
+- Ride Distance
+- Booking Value
+- Payment Method
+- Cancellation Reason
+- Booking Date
+- Ride Time
 
-## 🧠 SQL Analysis – Business Questions Solved Using Data
+---
 
-SQL was used to analyze booking patterns, cancellation behavior, revenue
-performance, and service quality across Ola ride data.
+# 📊 Project Workflow
 
+```
+Raw Dataset
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+SQL Analysis
+        │
+        ▼
+Business Problem Solving
+        │
+        ▼
+Power BI Dashboard
+        │
+        ▼
+Business Insights
+```
 
-## ✅ Conclusion
-This project demonstrates an end-to-end analytics workflow using Excel, SQL,
-and Power BI to solve a real-world business problem. The insights generated can
-support data-driven decision-making to reduce cancellations, improve ride
-success rates, and enhance overall platform performance.
+---
+
+# 🧹 Data Cleaning
+
+Performed the following preprocessing steps:
+
+- Removed duplicate records
+- Checked missing values
+- Standardized column names
+- Corrected data types
+- Validated cleaned dataset
+
+---
+
+# 📈 SQL Analysis
+
+Solved business problems including:
+
+- Successful bookings analysis
+- Ride cancellation analysis
+- Revenue analysis
+- Customer booking trends
+- Driver performance
+- Payment method analysis
+- Vehicle type analysis
+- Average ride distance
+- Top customers
+- Booking status analysis
+
+---
+
+# 📊 Power BI Dashboard
+
+Created **5 interactive dashboards** covering:
+
+### 📍 Overall Performance Dashboard
+- Total Bookings
+- Successful Rides
+- Cancellation Rate
+- Revenue
+- Ride Distance
+
+### 🚗 Vehicle Analysis Dashboard
+- Vehicle-wise Bookings
+- Revenue by Vehicle Type
+- Average Ride Distance
+
+### 💰 Revenue Analysis Dashboard
+- Total Revenue
+- Revenue Trend
+- Payment Method Analysis
+- Booking Value Distribution
+
+### ❌ Cancellation Analysis Dashboard
+- Customer Cancellation
+- Driver Cancellation
+- Cancellation Reasons
+- Cancellation Percentage
+
+### ⭐ Ratings Analysis Dashboard
+- Customer Ratings
+- Driver Ratings
+- Rating Distribution
+- Service Quality
+
+---
+
+# 📊 Key Business Insights
+
+- Identified peak booking hours and busiest days.
+- Analyzed cancellation patterns of customers and drivers.
+- Determined the most preferred payment methods.
+- Compared revenue generated by different vehicle categories.
+- Identified high-value customers based on booking frequency.
+- Evaluated ride distance trends across vehicle types.
+
+---
+
+# 📁 Project Structure
+
+```
+Ola-Ride-Booking-Analysis/
+│
+├── Bookings.csv
+├── ola-analysis.sql
+├── ola dashboard.pbix
+├── README.md
+└── images/
+```
+
+---
+
+# 🚀 How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/indesh18/Ola-Ride-Booking-Analysis.git
+```
+
+2. Import the dataset into MySQL.
+
+3. Execute the SQL queries.
+
+4. Open **ola dashboard.pbix** using Power BI Desktop.
+
+5. Explore the interactive dashboards.
+
+---
+
+# 📈 Results
+
+- Successfully analyzed ride booking operations.
+- Identified customer booking and cancellation trends.
+- Generated business insights using SQL and Power BI.
+- Developed interactive dashboards for operational monitoring.
+
+---
+
+# 🔮 Future Improvements
+
+- Build a real-time dashboard using Power BI Service.
+- Integrate Python for advanced analytics.
+- Add ride demand forecasting using Machine Learning.
+- Deploy dashboards for cloud-based reporting.
+
+---
+
+# 👨‍💻 Author
+
+**Indesh Prajapati**
+
+Data Analyst | SQL | Python | Power BI | Machine Learning
+
+GitHub: https://github.com/indesh18
+
+LinkedIn:https://www.linkedin.com/in/indesh-prajapati-7043092b5/
